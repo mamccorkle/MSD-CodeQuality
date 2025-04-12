@@ -32,3 +32,15 @@
 
  
 ## Fix Summary
+
+> ### Static Analysis
+> > 1) Removed unused libraries:
+> >     math [ flake8: F401, pylint: W0611 ]
+> >     random [ flake8: F401, pylint: W0611 ]
+> > 2) Printed the output variable:
+> >     print(output) [ flake8: F841, pylint: W0612 ]
+> > 3) Implemented a newline at the end of the file [ flake8: W292, pylint: C0304 ]
+> > 4) Added Module DocString [ pylint: C0114 ]
+> > 5) Added Function DocString [ pylint: C0116 ]
+> > 
+> 
