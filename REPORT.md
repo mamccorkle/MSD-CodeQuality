@@ -24,9 +24,14 @@
 
 ## Line Profiling
 
- 
+> Bottleneck found in:
+> 
+> - "slow_func": Took 1.41546 seconds for 1000 calls
+
+
 ### Fix:
 
+> Changed the arithmetic on the expensive_op and slow_func. Time now takes 0.0004556 s
  
 ## Code Coverage
 
@@ -42,5 +47,8 @@
 > > 3) Implemented a newline at the end of the file [ flake8: W292, pylint: C0304 ]
 > > 4) Added Module DocString [ pylint: C0114 ]
 > > 5) Added Function DocString [ pylint: C0116 ]
-> > 
+>
+> ### Line Profiling
+>
+> > Changed the arithmetic on the expensive_op and slow_func. Time now takes 0.0004556 s
 > 
