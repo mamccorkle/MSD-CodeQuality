@@ -26,15 +26,6 @@ def slow_func(lst):
 
 
 @profile
-def unused_function():
-    """This is an unused function."""
-    x = 10
-    y = 20
-    z = x + y
-    return z
-
-
-@profile
 def main():
     """This is the main function."""
     numbers = list(range(1000))

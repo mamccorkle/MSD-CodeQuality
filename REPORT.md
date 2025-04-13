@@ -33,9 +33,8 @@
 
 > Changed the arithmetic on the expensive_op and slow_func. Time now takes 0.0004556 s
  
-## Code Coverage
 
- 
+
 ## Fix Summary
 
 > ### Static Analysis
@@ -51,4 +50,8 @@
 > ### Line Profiling
 >
 > > Changed the arithmetic on the expensive_op and slow_func. Time now takes 0.0004556 s
-> 
+> ### Code Coverage
+>
+> > - Coverage before: 76%
+> > - Coverage after: ~93%
+> > - `unused_function()` was not covered, removed
